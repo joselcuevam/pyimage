@@ -174,6 +174,7 @@ digitalWrite(velocidadeA, LOW);
 digitalWrite(velocidadeB, LOW);
 }
 else
+//
 {
 digitalWrite(13, LOW); // set the LED off
 }
@@ -193,4 +194,5 @@ void sendData(){
 Wire.write(motor_ctrl_data);
 Serial.print("data sent:");
 Serial.println(motor_ctrl_data);
+//:)
 }
